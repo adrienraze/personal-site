@@ -1,0 +1,396 @@
+/**********************************HTML ELEMENTS**********************************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Dancing Script', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: 1000;
+}
+
+hr {
+  border: dotted #66BFBF 6px;
+  background-color: #FFF;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+  font-weight: 600;
+}
+ul{
+  line-height: 2;
+  font-weight: 600;
+}
+/***********************************************************************************************INDEX CSS****************************************************************************************************/
+/**********************************CLASS ELEMENTS**********************************/
+/********************Top container********************/
+/**********Navigation***********/
+.ml-auto {
+  margin-left: auto;
+}
+.navigation-bar {
+  background-color: #EAF6F6;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #66BFBF;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: #11999E;
+}
+.navbar-light .navbar-toggler {
+  color:#66BFBF;
+  border-color: #66BFBF;
+}
+.hr-nav{
+  border: solid #66BFBF 2px;
+  width: 100%;
+  margin: 0;
+}
+/************Header*************/
+.top-container {
+  background-color: #EAF6F6;
+}
+
+.top-cloud {
+  position: relative;
+  top: 30px;
+  left: 300px;
+}
+
+.bottom-cloud {
+  margin-left: 40px;
+  position: relative;
+  top: 275px;
+  right: 350px;
+}
+/********************Middle container********************/
+.middle-container {
+  margin: 100px 0;
+}
+
+/***********Profile**********/
+.profile-pic {
+  width: 200px;
+  margin-bottom: 20px
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+/***********Skills***********/
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.english-img {
+  width: 140px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 30px;
+}
+
+.web-development-img {
+  width: 140px;
+  vertical-align: baseline;
+  float: right;
+  margin-left: 30px;
+}
+.management-img {
+  width: 140px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 30px;
+}
+/************Contact**********/
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-me-button {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+  background-image: linear-gradient (to bottom, #11cdd4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-me-button:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient (to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+/********************Bottom container********************/
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.footer-link:hover{
+  color: #EAF6F6;
+}
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+/*********************************************************************************************EDUCATION CSS*************************************************************************************************/
+.header {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 40px;
+}
+.title{
+margin-top: 0;
+position: relative;
+bottom: 20px;
+}
+.dates{
+  font-size: 0.8rem;
+  font-style: italic;
+  color: grey;
+}
+.educational-background {
+  padding: 100px 0;
+}
+.educational-background .ending {
+  margin-bottom: 0;
+}
+.education-row {
+  width: 80%;
+  margin: 0px auto 250px;
+  text-align: left;
+}
+
+.logo-upx {
+  width: 425px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 30px;
+  padding: 40px 0;
+}
+
+.logo-ifepsa {
+  width: 325px;
+  vertical-align: baseline;
+  float: right;
+  margin-left: 30px;
+}
+
+.logo-iut {
+  width: 175px;
+  vertical-align: middle;
+  float: left;
+  margin-right: 30px;
+}
+.upx-dates{
+  margin-left: 455px;
+}
+/*********************************************************************************************PROFESSIONAL CSS*************************************************************************************************/
+.professional-experiences {
+  padding: 100px 0;
+}
+.professional-experiences .ending {
+  margin-bottom: 0;
+}
+.profession-row {
+  width: 50%;
+  margin: 0px auto 250px;
+  text-align: left;
+}
+.logo-ajb{
+  width: 175px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 80px;
+}
+.logo-angler{
+  width: 175px;
+  vertical-align: baseline;
+  float: right;
+  margin-left: 30px;
+}
+.logo-espacefoot{
+  width: 175px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 80px;
+  padding-bottom: 80px;
+}
+.logo-planetsports{
+  width: 200px;
+  vertical-align: baseline;
+  float: right;
+  margin-left: 30px;
+  padding-top: 40px;
+}
+
+/*********************************************************************************************PROJECTS CSS*************************************************************************************************/
+.projects {
+  padding: 100px 0;
+}
+.projects .ending {
+  margin-bottom: 0;
+}
+.project-row {
+  width: 70%;
+  margin: 0px auto 250px;
+  text-align: left;
+}
+.project-links{
+  margin-left: 0;
+}
+.project-links:hover{
+  color: #40514E;
+}
+.project-row a {
+margin: 0;
+font-weight: normal;
+}
+.logo-nudge{
+  width: 190px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 30px;
+}
+.logo-barber{
+  width: 190px;
+  vertical-align: baseline;
+  float: right;
+  margin-left: 30px;
+}
+.logo-elior{
+  width: 230px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 30px;
+}
+.logo-ifepsa-project {
+  width: 275px;
+  vertical-align: baseline;
+  float: right;
+  margin-left: 30px;
+}
+.logo-iut-project {
+  width: 175px;
+  vertical-align: baseline;
+  float: left;
+  margin-right: 30px;
+}
+.dates-right{
+  font-size: 0.8rem;
+  font-style: italic;
+  color: grey;
+}
+
+/* Media Query Points */
+@media (max-width:900px) {
+  .education-row{
+    text-align: center;
+  }
+  .upx-dates{
+    margin-left: 0;
+  }
+  .logo-ifepsa{
+    position: relative;
+    left: 45px;
+  }
+  .profession-row{
+    text-align: center;
+  }
+  .img-responsive-900{
+    float: none;
+    margin: 0 0 20px;
+  }
+  .logo-espacefoot{
+    padding-bottom: 0px;
+  }
+}
+@media (max-width:700px) {
+  .top-cloud{
+    display: none;
+  }
+  .bottom-cloud{
+    display: none;
+  }
+  h1 {
+    margin: 0 auto;
+  }
+  .mountain{
+    width: 100%;
+  }
+  .intro{
+    width: 60%;
+  }
+  .skill-row{
+    width: 60%;
+    text-align: center;
+  }
+  .project-row {
+    text-align: center;
+  }
+  .img-responsive-700{
+    float: none;
+    margin: 0 0 20px;
+  }
+  .logo-ifepsa-project{
+    position: relative;
+    left: 45px;
+  }
+
+
+
+}
